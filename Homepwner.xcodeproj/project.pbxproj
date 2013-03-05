@@ -16,6 +16,7 @@
 		A719DFA916E6425700792B37 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A719DFA816E6425700792B37 /* Default.png */; };
 		A719DFAB16E6425700792B37 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A719DFAA16E6425700792B37 /* Default@2x.png */; };
 		A719DFAD16E6425700792B37 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A719DFAC16E6425700792B37 /* Default-568h@2x.png */; };
+		A719DFB516E6428400792B37 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A719DFB416E6428400792B37 /* ItemsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		A719DFA816E6425700792B37 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A719DFAA16E6425700792B37 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A719DFAC16E6425700792B37 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A719DFB316E6428400792B37 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsViewController.h; path = Homepwner/ItemsViewController.h; sourceTree = "<group>"; };
+		A719DFB416E6428400792B37 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsViewController.m; path = Homepwner/ItemsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		A719DF8A16E6425600792B37 = {
 			isa = PBXGroup;
 			children = (
+				A719DFB316E6428400792B37 /* ItemsViewController.h */,
+				A719DFB416E6428400792B37 /* ItemsViewController.m */,
 				A719DF9C16E6425700792B37 /* Homepwner */,
 				A719DF9516E6425600792B37 /* Frameworks */,
 				A719DF9416E6425600792B37 /* Products */,
@@ -167,6 +172,7 @@
 			files = (
 				A719DFA316E6425700792B37 /* main.m in Sources */,
 				A719DFA716E6425700792B37 /* HomepwnerAppDelegate.m in Sources */,
+				A719DFB516E6428400792B37 /* ItemsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
