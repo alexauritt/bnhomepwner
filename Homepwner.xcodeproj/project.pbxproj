@@ -63,9 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				A719DFBC16E64E7300792B37 /* BNRItemStore.h */,
+				A719DFBD16E64E7300792B37 /* BNRItemStore.m */,
 				A719DFBF16E6520400792B37 /* BNRItem.h */,
 				A719DFC016E6520400792B37 /* BNRItem.m */,
-				A719DFBD16E64E7300792B37 /* BNRItemStore.m */,
 				A719DFB316E6428400792B37 /* ItemsViewController.h */,
 				A719DFC616E6E07000792B37 /* HeaderView.xib */,
 				A719DFB416E6428400792B37 /* ItemsViewController.m */,
