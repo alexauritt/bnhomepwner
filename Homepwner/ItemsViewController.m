@@ -130,7 +130,12 @@
     return sourceIndexPath;
   }
   return proposedDestinationIndexPath;
-  
+}
+
+- (void)tableView:(UITableView *)aTableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    DetailViewController *detailViewController = [[DetailViewController alloc] init];
+    [[self navigationController] pushViewController:detailViewController animated:YES];
 }
 
 @end
