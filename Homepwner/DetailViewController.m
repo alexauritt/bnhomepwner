@@ -50,4 +50,12 @@
   [[self navigationItem] setTitle:[item itemName]];
 }
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+  if ([valueField isFirstResponder]) {
+    [valueField resignFirstResponder];
+  }
+}
+
+
 @end
