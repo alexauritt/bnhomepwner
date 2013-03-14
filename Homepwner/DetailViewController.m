@@ -34,4 +34,14 @@
     [dateLabel setText:[dateFormatter stringFromDate:[item dateCreated]]];
 }
 
+- (void)viewWillDisappear:(BOOL)animated
+{
+  [super viewWillDisappear:animated];
+  [[self view] endEditing:YES];
+  
+  [item setItemName:[nameField text]];
+  [item setSerialNumber:[serialNumberField text]];
+  [item setValueInDollars:[[valueField text] intValue]];
+}
+
 @end
