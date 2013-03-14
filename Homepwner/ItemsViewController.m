@@ -18,6 +18,13 @@
     if (self) {
       UINavigationItem *n = [self navigationItem];
       [n setTitle:@"Homepwner"];
+      
+      UIBarButtonItem *bbi = [[UIBarButtonItem alloc]
+                              initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                              target:self
+                              action:@selector(addNewItem:)];
+      [[self navigationItem] setRightBarButtonItem:bbi];
+      [[self navigationItem] setLeftBarButtonItem:[self editButtonItem]];
     }
     return self;
 }
