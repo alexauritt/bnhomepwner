@@ -28,7 +28,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [[[BNRItemStore sharedStore] allItems] count];
+    return [[[BNRItemStore sharedStore] allItems] count] + 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
@@ -39,10 +39,22 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCell"];
     }
-    
-    BNRItem *p = [[[BNRItemStore sharedStore] allItems] objectAtIndex:[indexPath row]];
-    [[cell textLabel] setText:[p description]];
+  
+    BNRItem *p;
+    NSString *labelText;
+  
+    if ([indexPath row] != ([tableView numberOfRowsInSection:0] - 1)) {
+      p = [[[BNRItemStore sharedStore] allItems] objectAtIndex:[indexPath row]];
+      labelText = [p description];
+    }
+    else {
+      labelText = @"No more items!";
+      cell.textLabel.font = [UIFont systemFontOfSize:20.0];
+    }
+  
+    [[cell textLabel] setText:labelText];
     return cell;
+  
 }
 
 - (UIView *)headerView
@@ -107,4 +119,18 @@
 {
     [[BNRItemStore sharedStore] moveItemAtIndex:[sourceIndexPath row] toIndex:[destinationIndexPath row]];
 }
+
+- (NSIndexPath *)tableView:(UITableView *)tableView targetIndexPathForMoveFromRowAtIndexPath:(NSIndexPath *)sourceIndexPath toProposedIndexPath:(NSIndexPath *)proposedDestinationIndexPath
+{
+  int lastRow = [tableView numberOfRowsInSection:0] - 1;
+  if ([sourceIndexPath row] == lastRow) {
+    return sourceIndexPath;
+  }
+  if ([proposedDestinationIndexPath row] == lastRow) {
+    return sourceIndexPath;
+  }
+  return proposedDestinationIndexPath;
+  
+}
+
 @end
