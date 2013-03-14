@@ -44,4 +44,10 @@
   [item setValueInDollars:[[valueField text] intValue]];
 }
 
+- (void)setItem:(BNRItem *)i
+{
+  item = i;
+  [[self navigationItem] setTitle:[item itemName]];
+}
+
 @end
