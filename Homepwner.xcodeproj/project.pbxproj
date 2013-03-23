@@ -19,6 +19,8 @@
 		A719DFB516E6428400792B37 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A719DFB416E6428400792B37 /* ItemsViewController.m */; };
 		A719DFBE16E64E7300792B37 /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A719DFBD16E64E7300792B37 /* BNRItemStore.m */; };
 		A719DFC116E6520400792B37 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A719DFC016E6520400792B37 /* BNRItem.m */; };
+		A7487A2C16FE56290081D598 /* DateChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7487A2A16FE56290081D598 /* DateChangeViewController.m */; };
+		A7487A2D16FE56290081D598 /* DateChangeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7487A2B16FE56290081D598 /* DateChangeViewController.xib */; };
 		A77DD0C516F1714100A7EAA6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77DD0C316F1714100A7EAA6 /* DetailViewController.m */; };
 		A77DD0C616F1714100A7EAA6 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A77DD0C416F1714100A7EAA6 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
@@ -43,6 +45,9 @@
 		A719DFBD16E64E7300792B37 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRItemStore.m; path = Homepwner/BNRItemStore.m; sourceTree = "<group>"; };
 		A719DFBF16E6520400792B37 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
 		A719DFC016E6520400792B37 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		A7487A2916FE56290081D598 /* DateChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateChangeViewController.h; sourceTree = "<group>"; };
+		A7487A2A16FE56290081D598 /* DateChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateChangeViewController.m; sourceTree = "<group>"; };
+		A7487A2B16FE56290081D598 /* DateChangeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateChangeViewController.xib; sourceTree = "<group>"; };
 		A77DD0C216F1714100A7EAA6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		A77DD0C316F1714100A7EAA6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		A77DD0C416F1714100A7EAA6 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
@@ -66,6 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				A719DFBC16E64E7300792B37 /* BNRItemStore.h */,
+				A7487A2916FE56290081D598 /* DateChangeViewController.h */,
+				A7487A2A16FE56290081D598 /* DateChangeViewController.m */,
+				A7487A2B16FE56290081D598 /* DateChangeViewController.xib */,
 				A719DFBD16E64E7300792B37 /* BNRItemStore.m */,
 				A719DFBF16E6520400792B37 /* BNRItem.h */,
 				A719DFC016E6520400792B37 /* BNRItem.m */,
@@ -179,6 +187,7 @@
 				A719DFAB16E6425700792B37 /* Default@2x.png in Resources */,
 				A719DFAD16E6425700792B37 /* Default-568h@2x.png in Resources */,
 				A77DD0C616F1714100A7EAA6 /* DetailViewController.xib in Resources */,
+				A7487A2D16FE56290081D598 /* DateChangeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +204,7 @@
 				A719DFBE16E64E7300792B37 /* BNRItemStore.m in Sources */,
 				A719DFC116E6520400792B37 /* BNRItem.m in Sources */,
 				A77DD0C516F1714100A7EAA6 /* DetailViewController.m in Sources */,
+				A7487A2C16FE56290081D598 /* DateChangeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

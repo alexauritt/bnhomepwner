@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "DateChangeViewController.h"
 #import "BNRItem.h"
 
 @implementation DetailViewController
@@ -59,7 +60,8 @@
 
 - (IBAction)changeDate:(id)sender
 {
-    NSLog(@"someone wants something");
+    DateChangeViewController *dateChangeViewController = [[DateChangeViewController alloc] init];
+    [[self navigationController] pushViewController:dateChangeViewController animated:YES];
 }
 
 
