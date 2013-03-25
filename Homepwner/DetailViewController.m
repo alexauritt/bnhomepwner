@@ -61,6 +61,7 @@
 - (IBAction)changeDate:(id)sender
 {
     DateChangeViewController *dateChangeViewController = [[DateChangeViewController alloc] init];
+    [dateChangeViewController setItem:item];
     [[self navigationController] pushViewController:dateChangeViewController animated:YES];
 }
 

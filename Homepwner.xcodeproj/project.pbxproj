@@ -45,9 +45,9 @@
 		A719DFBD16E64E7300792B37 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRItemStore.m; path = Homepwner/BNRItemStore.m; sourceTree = "<group>"; };
 		A719DFBF16E6520400792B37 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
 		A719DFC016E6520400792B37 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
-		A7487A2916FE56290081D598 /* DateChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateChangeViewController.h; sourceTree = "<group>"; };
-		A7487A2A16FE56290081D598 /* DateChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateChangeViewController.m; sourceTree = "<group>"; };
-		A7487A2B16FE56290081D598 /* DateChangeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateChangeViewController.xib; sourceTree = "<group>"; };
+		A7487A2916FE56290081D598 /* DateChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateChangeViewController.h; path = ../DateChangeViewController.h; sourceTree = "<group>"; };
+		A7487A2A16FE56290081D598 /* DateChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateChangeViewController.m; path = ../DateChangeViewController.m; sourceTree = "<group>"; };
+		A7487A2B16FE56290081D598 /* DateChangeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DateChangeViewController.xib; path = ../DateChangeViewController.xib; sourceTree = "<group>"; };
 		A77DD0C216F1714100A7EAA6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		A77DD0C316F1714100A7EAA6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		A77DD0C416F1714100A7EAA6 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
@@ -71,9 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				A719DFBC16E64E7300792B37 /* BNRItemStore.h */,
-				A7487A2916FE56290081D598 /* DateChangeViewController.h */,
-				A7487A2A16FE56290081D598 /* DateChangeViewController.m */,
-				A7487A2B16FE56290081D598 /* DateChangeViewController.xib */,
 				A719DFBD16E64E7300792B37 /* BNRItemStore.m */,
 				A719DFBF16E6520400792B37 /* BNRItem.h */,
 				A719DFC016E6520400792B37 /* BNRItem.m */,
@@ -106,6 +103,9 @@
 		A719DF9C16E6425700792B37 /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				A7487A2916FE56290081D598 /* DateChangeViewController.h */,
+				A7487A2A16FE56290081D598 /* DateChangeViewController.m */,
+				A7487A2B16FE56290081D598 /* DateChangeViewController.xib */,
 				A719DFA516E6425700792B37 /* HomepwnerAppDelegate.h */,
 				A719DFA616E6425700792B37 /* HomepwnerAppDelegate.m */,
 				A77DD0C216F1714100A7EAA6 /* DetailViewController.h */,

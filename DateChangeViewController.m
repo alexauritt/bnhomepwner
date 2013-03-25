@@ -7,13 +7,11 @@
 //
 
 #import "DateChangeViewController.h"
+#import "BNRItem.h"
 
-@interface DateChangeViewController ()
-
-@end
 
 @implementation DateChangeViewController
-
+@synthesize item;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -22,6 +20,15 @@
     }
     return self;
 }
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+  [super viewWillDisappear:animated];
+  [item setDateCreated: [selectedDate date]];
+//  NSLog(@"the current date is %@", [selectedDate date]);
+//
+}
+
 
 - (void)viewDidLoad
 {
